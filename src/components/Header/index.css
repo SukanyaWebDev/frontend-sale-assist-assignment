@@ -1,0 +1,156 @@
+header {
+    background-color:black;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction:column;
+   
+    border: 1px solid grey;
+    box-shadow: 0px 0px 0px 0px;
+    color:grey;
+    border-bottom:none;
+    
+    
+
+  }
+  .list-of-icons{
+    display: flex;
+    list-style-type: none;
+    color:grey;
+  }
+
+  
+  .list-of-icons li{
+    margin-right:5px;
+  }
+  .list-of-icons select{
+    background-color: transparent;
+    border:none;
+    width:50px;
+    color:black;
+    outline: none;
+  }
+  .list-of-icons select option{
+    background-color:grey;
+    color:#ffffff;
+   
+  }
+
+  .logo {
+    font-size: 24px;
+   letter-spacing: 10px;
+    margin-left: 40px;
+
+   
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  nav ul li {
+    display:flex;
+    margin-right:30px;
+    font-size: 20px;
+    color:grey;
+    
+    font-family:"san-serif";
+
+  }
+  .list-of-items{
+    list-style-type: none;
+    display: flex;
+    color:black;
+    /* background-color: black; */
+    width:100%;
+
+  }
+  .list-of-items li{
+    margin-right: 20px;
+    color:white;
+    text-align:center;
+    width:200px;
+    color:grey;
+    
+    font-family:"san-serif";
+
+  }
+  .list-of-items img {
+    width:100px;
+    height:100px;
+  }
+  
+  
+
+  .icons{
+    width:30px;
+    height:30px;
+    margin-right: 10px;
+  }
+  .header-top-section{
+    display:flex;
+    justify-content: space-between; 
+  
+}
+  .logo-icon{
+    width:50px;
+    height:50px;
+  }
+
+  @media screen and  (max-width:576px){
+    .logo {
+        font-size:10px;
+        text-align: center;
+        margin-left:7px;
+        letter-spacing:6px;
+        
+       
+      }
+      .list-of-items img {
+        width:50px;
+        height:50px;
+        margin-left: 0px;
+      }
+      .list-of-items h3 {
+       font-size: 10px;
+      }
+      .list-of-items  {
+        overflow:scroll;
+      }
+      
+      
+      nav ul li {
+        display: inline-block;
+        margin-right:20px;
+        font-size:8px;
+        
+      }
+      .logo-icon{
+        width:30px;
+        height:30px;
+      }
+      .list-of-icons li{
+        margin-right:3px;
+      }
+      .header-top-section{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .list-of-icons{
+        margin-right: 0px;
+      }
+    .icons{
+        width:20px;
+    }
+    nav ul li{
+        font-size: 13px;
+
+    }
+      
+
+  }
+
